@@ -1,0 +1,14 @@
+body {
+      background-color: #071E07;
+       font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    }
+    .body{
+       background-color: #6E8649;
+       align-content: space-around;
+       padding: 30px;
+       text-align: center;
+       width: 1000px
+    }
