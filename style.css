@@ -1,14 +1,48 @@
+
 body {
-      background-color: #071E07;
-       font-family: "Source Code Pro", monospace;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-    }
-    .body{
-       background-color: #6E8649;
-       align-content: space-around;
-       padding: 30px;
-       text-align: center;
-       width: 1000px
-    }
+  margin: 0;
+  padding: 0;
+  background: #f4f2ea;
+  font-family: "Source Code Pro", monospace;
+  
+  color: black;
+  text-align: center;
+}
+
+.repeated-text {
+  font-size: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 5px 10px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  position: relative;
+}
+
+.side-image {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  margin: 0 20px;
+}
+
+.center-text {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  max-width: 300px;
+}
+a {
+  color: black;
+ 
+}
+a:hover {
+  color: gray;  /* або будь-який інший */
+}
