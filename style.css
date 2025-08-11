@@ -46,3 +46,7 @@ a {
 a:hover {
   color: gray;  /* або будь-який інший */
 }
+.forest{
+  width: 500px;
+  height: auto;
+}
